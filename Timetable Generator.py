@@ -10,7 +10,7 @@ print("3) After Entering all the fields your html file will be created and you w
 print("4) Html File will be created on the same path where you kept this program.")
 
 print("")
-college = input("Enter your College name :")
+college = input("Enter your College / School name :")
 classname = input("Enter your class :")
 year = input("Enter your Academic Year:")
 print("=========")
@@ -81,3 +81,5 @@ code = "<!DOCTYPE html><html><head><title>Timetable</title> </head><body> <p><br
 f.write(code)
 f.close()
 webbrowser.open('timetable.html')
+
+
